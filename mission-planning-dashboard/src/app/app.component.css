@@ -1,5 +1,12 @@
+body {
+    background-image: url('https://www.worldatlas.com/r/w1200-h701-c1200x701/upload/bb/f9/b1/shutterstock-1104598595.jpg');
+    background-size: cover;
+
+}
+
 .box {
     display: flex;
     padding: 10px;
+    
 
 }
