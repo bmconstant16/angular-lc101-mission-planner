@@ -9,8 +9,8 @@
     
 
     <ng-template #elseBlock>
-      <input #updatedEquipment (keyup.enter)="save(updatedEquipment.value)" value="{{item}}"/>
-      <button (click)="save(updatedEquipment.value)">save</button>
+      <input #updatedEquipment (keyup.enter)="save(updatedEquipment.value, item)" value="{{item}}"/>
+      <button (click)="save(updatedEquipment.value, item)">save</button>
     </ng-template> 
   </li>
   

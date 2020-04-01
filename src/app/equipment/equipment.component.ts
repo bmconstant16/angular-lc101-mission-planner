@@ -24,8 +24,9 @@ export class EquipmentComponent implements OnInit {
       this.equipmentBeingEdited = equipmentItem;
    }
 
-  save(updatedEquipment: string) {
-    this.equipmentBeingEdited = updatedEquipment;
+  save(updatedEquipment: string, oldName: string) {
+    let index = this.equipment.indexOf(oldName);
+    this.equipment[index] = updatedEquipment;
     this.equipmentBeingEdited = null
   }
 

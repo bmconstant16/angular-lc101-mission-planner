@@ -8,8 +8,8 @@
     </span>
 
     <ng-template #elseBlock>
-      <input #newExperiment (keyup.enter)="save(newExperiment.value)" value="{{experiment}}"/>
-      <button (click)="save(newExperiment.value)">save</button>
+      <input #newExperiment (keyup.enter)="save(newExperiment.value, experiment)" value="{{experiment}}"/>
+      <button (click)="save(newExperiment.value, experiment)">save</button>
     </ng-template> 
 
   </li>
