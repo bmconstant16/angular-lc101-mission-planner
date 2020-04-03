@@ -32,5 +32,7 @@ export class EquipmentComponent implements OnInit {
       this.cargoMass = this.cargoMass + equipment['mass'];
       return this.maximumAllowedMass - this.cargoMass <=200;
    }
+
+   
    
 }
